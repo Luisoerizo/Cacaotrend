@@ -316,7 +316,7 @@ footer{
       nav ul li a.active,
       nav ul li a:hover {
             background: none;
-            color: #5B2704;
+            color: #000;
       }
       .flex-content{
             text-align: justify;
