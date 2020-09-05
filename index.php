@@ -46,7 +46,7 @@
             <div class="flex-content">
                   <div class="grid">
                         <div class="grid__item">
-                              <div class="card"><img class="card__img" src="/images/card1.jpg">
+                              <div class="card"><img loading="lazy" class="card__img" src="/images/card1.jpg">
                                     <div class="card__content">
                                           <h1 class="card__header">Chocolate con leche</h1>
                                           <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -58,7 +58,7 @@
                               </div>
                         </div>
                         <div class="grid__item">
-                              <div class="card"><img class="card__img" src="/images/card2.jpg">
+                              <div class="card"><img loading="lazy" class="card__img" src="/images/card2.jpg">
                                     <div class="card__content">
                                           <h1 class="card__header">Chocolate derretido</h1>
                                           <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -70,7 +70,7 @@
                               </div>
                         </div>
                         <div class="grid__item">
-                              <div class="card"><img class="card__img" src="/images/card3.jpg">
+                              <div class="card"><img loading="lazy" class="card__img" src="/images/card3.jpg">
                                     <div class="card__content">
                                           <h1 class="card__header">Chocolate con nuez</h1>
                                           <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing
