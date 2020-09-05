@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+
+   <form>
+        <div>
+            <label for="text">Nombre</label>
+            <input type="text" id="text" required placeholder="Nombre completo">
+        </div>
+
+        <div>
+            <label for="text">Usuario</label>
+            <input type="text" id="text" required placeholder="Usuario">
+        </div>
+        <div>
+            <label for="password">Password (Debe contenter al menos 1 mayúscula, 1 minúscula y una letra)</label>
+            <input type="password" id="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required placeholder="Password">
+        </div>
+    
+    
+        <input type="submit" class="button" value="Registrarse">
+        <input type="checkbox" class="button" value="Registrarse">
+
+    </form>
+
+</body>
+</html>
